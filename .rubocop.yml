@@ -1,0 +1,23 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'db/schema.rb'
+  NewCops: enable
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'test/**/*'
+
+Style/Documentation:
+  Exclude:
+    - 'app/controllers/**/*'
+    - 'app/helpers/**/*'
+    - 'app/mailers/**/*'
+    - 'app/**/application_*'
+    - 'config/*'
+    - 'db/**/*'
+    - 'test/**/*'
+
+Layout/LineLength:
+  Max: 80
+  IgnoredPatterns: ['\A\s*#']
