@@ -33,6 +33,8 @@ gem 'jquery-rails'
 gem 'rack-canonical-host'
 gem 'recaptcha', require: 'recaptcha/rails'
 gem 'scenic'
+gem 'ress'
+
 
 group :development, :test do
   gem 'rubocop'
